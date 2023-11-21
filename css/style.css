@@ -44,7 +44,8 @@ body{
 .container{
     width: 60%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 
 
@@ -128,4 +129,17 @@ h2{
 
 .badge-orange{
     background-color: orange;
+}
+
+.badge-purple{
+    background-color: purple;
+}
+
+.badge-greenyellow{
+    background-color: greenyellow;
+}
+
+.list-end{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
