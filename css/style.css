@@ -1,0 +1,25 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.header {
+    line-height: 120px;
+}
+
+.logo {
+    height: 100px;
+    vertical-align: middle;
+    padding-left: 50px;
+}
+
+.main-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4rem;
+}
