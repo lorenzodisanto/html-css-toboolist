@@ -14,6 +14,7 @@ ul{
 li{
     margin-left: 0;
     margin-bottom: 30px;
+    line-height: 30px;
 }
 
 body{
@@ -79,7 +80,10 @@ body{
 
 .size-list{
     background-color: white;
-    padding: 20px 80px;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 1px;
     border-top-color: rgb(0, 157, 255);
 }
 
@@ -97,17 +101,20 @@ h2{
 .border-check{
     color: rgb(111, 167, 26);
     font-size: 0.7rem;
-    padding: 5px;
+    padding: 8px;
     border: 2px solid rgb(111, 167, 26);
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .border-x{
     color: red;
     font-size: 0.7rem;
-    padding: 5px;
+    padding: 8px;
     border: 2px solid red;
     border-radius: 50%;
+    vertical-align: middle;
+
 }
 
 .badge-size{
@@ -115,6 +122,8 @@ h2{
     font-size: 1rem;
     padding: 10px 10px;
     border-radius: 16px;
+    vertical-align: middle;
+
 }
 
 .badge-blue{
@@ -144,4 +153,5 @@ h2{
 .list-end{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding-bottom: 30px;
 }
